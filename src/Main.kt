@@ -3,7 +3,7 @@ fun main() {
     println("======================== Test 1 ========================")
     println("Checking value selection by index:")
 
-    var map = SpecialHashMap<String, Int>()
+    val map = SpecialHashMap<String, Int>()
     map["value1"] = 1
     map["value2"] = 2
     map["value3"] = 3
@@ -21,7 +21,7 @@ fun main() {
     println("======================== Test 2 ========================")
     println("Checking work with digital keys:")
 
-    var hm2 = SpecialHashMap<Int, Int>()
+    val hm2 = SpecialHashMap<Int, Int>()
     hm2[2] = 10
     hm2[6] = 20
     hm2[1] = 30
@@ -48,6 +48,7 @@ fun main() {
     map2["(10, 5)"] = 300
     map2["(1, 5, 3)"] = 400
     map2["(5, 5, 4)"] = 500
+    map2["(5, 5, 2)"] = 700
     map2["(10, 5, 5)"] = 600
 
     println(map2.ploc[">=1"]) // >>> {1=10, 2=20, 3=30}
@@ -55,6 +56,10 @@ fun main() {
     println(map2.ploc[">0,>0"]) // >>> {(1, 5)=100, (5, 5)=200, (10, 5)=300}
     println(map2.ploc[">=10,  >0"]) // >>> {(10, 5)=300}
     println(map2.ploc["<5, >=5,  >=3"]) // >>> {(1, 5, 3)=400}
+
+    //Key sorting check, (5, 5, 4)=500 comes after (5, 5, 2)=700
+    println(map2.ploc["<=5, >=2,  >=2"]) // >>> {(1, 5, 3)=400, (5, 5, 2)=700, (5, 5, 4)=500}
+
 
 
 }
