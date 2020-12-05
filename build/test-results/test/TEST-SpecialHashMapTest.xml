@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpecialHashMapTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-05T20:58:34" hostname="DESKTOP-7FR6BML" time="0.077">
+  <properties/>
+  <testcase name="getIloc(int, int)[1]" classname="SpecialHashMapTest" time="0.058"/>
+  <testcase name="getIloc(int, int)[2]" classname="SpecialHashMapTest" time="0.002"/>
+  <testcase name="getIloc(int, int)[3]" classname="SpecialHashMapTest" time="0.001"/>
+  <testcase name="getIloc(int, int)[4]" classname="SpecialHashMapTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
