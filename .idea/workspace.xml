@@ -22,28 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef437bd-d386-467a-b484-5434eb62f944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/HashMapExpansion.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/HashMapExpansion.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashMapExpansion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HashMapExpansion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid10872.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid22252.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid30308.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid33808.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid34028.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid34152.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid35348.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpecialHashMap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SpecialHashMap.kt" afterDir="false" />
-    </list>
+    <list default="true" id="2ef437bd-d386-467a-b484-5434eb62f944" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,6 +208,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607180018051</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add JUnit tests">
+      <created>1607202402177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607202402177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +229,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add JUnit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="311" width="816" height="729" key="#Intentions" timestamp="1607193030742">

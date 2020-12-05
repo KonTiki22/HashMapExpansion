@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpecialHashMapTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-05T20:58:34" hostname="DESKTOP-7FR6BML" time="0.077">
+<testsuite name="SpecialHashMapTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-05T21:07:32" hostname="DESKTOP-7FR6BML" time="0.147">
   <properties/>
-  <testcase name="getIloc(int, int)[1]" classname="SpecialHashMapTest" time="0.058"/>
-  <testcase name="getIloc(int, int)[2]" classname="SpecialHashMapTest" time="0.002"/>
-  <testcase name="getIloc(int, int)[3]" classname="SpecialHashMapTest" time="0.001"/>
-  <testcase name="getIloc(int, int)[4]" classname="SpecialHashMapTest" time="0.002"/>
+  <testcase name="getPloc(String, Map)[1]" classname="SpecialHashMapTest" time="0.096"/>
+  <testcase name="getPloc(String, Map)[2]" classname="SpecialHashMapTest" time="0.005"/>
+  <testcase name="getPloc(String, Map)[3]" classname="SpecialHashMapTest" time="0.009"/>
+  <testcase name="getPloc(String, Map)[4]" classname="SpecialHashMapTest" time="0.003"/>
+  <testcase name="getPloc(String, Map)[5]" classname="SpecialHashMapTest" time="0.004"/>
+  <testcase name="getPloc(String, Map)[6]" classname="SpecialHashMapTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
